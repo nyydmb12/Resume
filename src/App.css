@@ -1,0 +1,168 @@
+.App {
+    text-align: center;
+    background-image: url("./images/stump.jpg");
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.headerGrad {
+   
+    color: white;
+    margin: auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@font-face {
+    font-family: 'WebFont';
+    src: url("./fonts/Poppins-Medium.ttf"),
+    url("./fonts/Poppins-Thin.ttf"),
+    url("./fonts/Poppins-ThinItalic.ttf"),
+    url("./fonts/Poppins-Black.ttf"),
+    url("./fonts/Poppins-BlackItalic.ttf"),
+    url("./fonts/Poppins-Bold.ttf"),
+    url("./fonts/Poppins-BoldItalic.ttf"),
+    url("./fonts/Poppins-ExtraBold.ttf"),
+    url("./fonts/Poppins-ExtraBoldItalic.ttf"),
+    url("./fonts/Poppins-ExtraLight.ttf"),
+    url("./fonts/Poppins-ExtraLightItalic.ttf"),
+    url("./fonts/Poppins-Italic.ttf"),
+    url("./fonts/Poppins-Light.ttf"),
+    url("./fonts/Poppins-LightItalic.ttf"),
+    url("./fonts/Poppins-Medium.ttf" )
+    url("./fonts/Poppins-MediumItalic.ttf" ),
+    url("./fonts/Poppins-Regular.ttf"),
+    url("./fonts/Poppins-SemiBold.ttf" ),
+    url("./fonts/Poppins-SemiBoldItalic.ttf");
+}
+
+h1{
+   font-weight:500;
+}
+h5 {
+    opacity: 1;
+}
+ul#horizontal-list {
+    
+    list-style: none;
+    padding-left: 10px;
+}
+
+    ul#horizontal-list li {
+        display: inline;
+       
+    }
+
+    .title{
+        font-weight:700;
+    }
+html {
+    font-family: Segoe UI;
+}
+#content {
+    margin: auto;
+    width: 50%;
+}
+
+.GroupHeaders {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    display: inline;
+}
+
+    .GroupHeaders h5 {
+        padding-left: 10px;
+        margin: auto;
+        width: 50%;
+        text-align: center;
+        display: inline;
+    }
+
+#workExperience {
+    border-radius: 15px;
+    background: #D0D9E0;
+    margin: 1em;
+    opacity: 0.70;
+}
+#education {
+    margin: 1em;
+    border-radius: 15px;
+    background: #D0D9E0;
+    margin: 1em;
+    opacity: 0.70;
+}
+#skills {
+    border-radius: 15px;
+    background: #D0D9E0;
+    margin: 1em;
+    opacity: 0.70;
+}
+
+#outer {
+    margin: auto;
+    margin-top: 15%;
+    background: #D0D9E0;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    opacity: 1;
+}
+
+#middle {
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    border-radius: 50%;
+    background-image: linear-gradient(150deg, transparent 50%, #154e7d 50%),linear-gradient(90deg, #154e7d 50%, white 50%);
+    -webkit-animation: rotation 1200ms infinite linear;
+    transform-origin: 50% 50%;
+    animation-timing-function: ease;
+    opacity: 1;
+}
+
+#inner {
+    background: #D0D9E0;
+    height: 48px;
+    width: 48px;
+    margin: auto;
+    position: relative;
+    top: 6px;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(270deg);
+    }
+
+    to {
+        transform: rotate(630deg);
+    }
+}
+
+row {
+    opacity: 1;
+}
