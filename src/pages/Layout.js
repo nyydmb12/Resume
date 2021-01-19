@@ -85,14 +85,17 @@ import Loader from "../components/Loader";
  
 
         render() {
-            let skillLoadContainer, workLoadContainer, eduLoadContainer, hasVal;
+            let skillLoadContainer, workLoadContainer, eduLoadContainer, hasVal, isFreeSpace;
             if (this.state.skillURL && this.state.render == true) {
                 hasVal = 1;
                 skillLoadContainer = <Skills key={hasVal} url={this.state.skillURL} />
+                isFreeSpace = null;
+      
             }
             else {
                 hasVal = 0
-                skillLoadContainer = <Loader key={1}/>
+                skillLoadContainer = <Loader key={1} />
+                isFreeSpace = <Row id="freeSpace"><Col><p>This web server is running on a free Azure service, connecting to a free CosmosDB it will load...probably</p></Col></Row>
             }
             if (this.state.workExperienceURL && this.state.render == true) {
                 hasVal = 1;
@@ -114,14 +117,15 @@ import Loader from "../components/Loader";
             return (
                 <Container fluid id="content">
                 <header className="App-header">
-                    <head>
-
+                        <head>
                         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"></link>
                     </head>
 
                         <Header key={this.state.userId} userName = { this.state.userName } title={this.state.userTitle} />
                     </header>
-                
+           
+                        {isFreeSpace}
+               
        
                          
                     <Container fluid id="workExperience"> 

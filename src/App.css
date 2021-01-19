@@ -103,19 +103,32 @@ html {
     background: #D0D9E0;
     margin: 1em;
     opacity: 0.70;
+    color :black;
 }
+
+#freeSpace {
+    border-radius: 15px;
+    background: #D0D9E0;
+    margin: 1em;
+    opacity: 0.70;
+    color: black;
+}
+
+
 #education {
     margin: 1em;
     border-radius: 15px;
     background: #D0D9E0;
     margin: 1em;
     opacity: 0.70;
+    color: black;
 }
 #skills {
     border-radius: 15px;
     background: #D0D9E0;
     margin: 1em;
     opacity: 0.70;
+    color: black;
 }
 
 #outer {
