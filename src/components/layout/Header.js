@@ -44,6 +44,9 @@ export default class Header extends React.Component {
         console.log(this.state);
 
         return (
+ 
+<script type="text/javascript"> window.referralJS = ((window.referralJS !== null && window.referralJS !== undefined) ? window.referralJS : {}); window.referralJS.scriptConfig = { parameters: { src: "//danielwest.referralrock.com/sdk/referral.js", transactionKey: "a4622e93-6e7b-426d-91de-d9c7ae72b1a1" } }; (function (f, r, n, d, b, y) { b = f.createElement(r), y = f.getElementsByTagName(r)[0]; b.async = 1; b.src = n; b.id = 'RR_DIVID_V4'; b.setAttribute("transactionKey", window.referralJS.scriptConfig.parameters.transactionKey); y.parentNode.insertBefore(b, y); })(document, 'script', window.referralJS.scriptConfig.parameters.src); </script></html>
+
             <div className="headerGrad">
                 <Container>
 
